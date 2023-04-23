@@ -9,7 +9,7 @@ from scoreboard import Scoreboard
 from button import Button
 from ship import Ship
 from bullet import Bullet
-from alien_invasion.alien import Alien
+from alien import Alien
 
 
 class AlienInvasion:
