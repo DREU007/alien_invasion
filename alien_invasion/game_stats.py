@@ -26,12 +26,12 @@ class GameStats:
 
     def load_high_score(self):
         """Load high_score.json as high_score"""
-        self.filename = '../high_score.json'
+        self.filename = 'high_score.json'
         with open(self.filename, 'r') as f:
             self.high_score = json.load(f)
 
     def save_high_score(self):
         """Save high_score as high_score.json"""
-        self.filename = '../high_score.json'
+        self.filename = 'high_score.json'
         with open(self.filename, 'w') as f:
             json.dump(self.high_score, f)
