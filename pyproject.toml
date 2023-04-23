@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "alien-invasion"
+version = "0.9"
+description = "Game based on original Atari game Space Invaders. Shoot aliens to defend the earth. Score as musch as you can to beat all time high socore."
+authors = ["Denis Bolshakov <dreu007@gmail.com>"]
+readme = "README.md"
+packages = [{include = "alien_invasion"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pygame = "^2.3.0"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.0.0"
+pytest = "^7.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
