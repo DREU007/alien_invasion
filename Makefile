@@ -1,8 +1,8 @@
 install:
 	poetry install
 
-alien_invasion:
-	poetry run alien_invasion
+alien-invasion:
+	poetry run alien-invasion
 
 build:
 	poetry build

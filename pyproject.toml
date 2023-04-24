@@ -11,7 +11,7 @@ readme = "README.md"
 packages = [{include = "alien_invasion"}]
 
 [tool.poetry.scripts]
-alien_invasion = "alien_invasion.scripts.alien_invasion:main"
+alien-invasion = "alien_invasion.scripts.ai_game:main"
 
 [tool.poetry.dependencies]
 python = "^3.10"
