@@ -5,6 +5,7 @@ import json
 class GameStats:
     """Track statistics for Alien Invasion"""
     _score_fp = os.path.join(os.path.dirname(__file__), 'high_score.json')
+
     def __init__(self, ai_game):
         """Initialize statistics"""
         self.settings = ai_game.settings
