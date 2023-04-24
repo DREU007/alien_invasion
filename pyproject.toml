@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "alien-invasion"
 version = "0.9"
-description = "Game based on original Atari game Space Invaders. Shoot aliens to defend the earth. Score as musch as you can to beat all time high socore."
+description = "Game based on the original Atari game Space Invaders. Shoot the aliens to defend the Earth and score as much as you can to beat the all-time high score."
 classifiers = [
     "Topic :: Games/Entertainment :: Arcade"
 ]
