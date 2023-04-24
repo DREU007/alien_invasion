@@ -1,5 +1,5 @@
 ### Status
-Python CI, Climate Clime
+[![Actions Status](https://github.com/DREU007/alien_invasion/actions/workflows/pyci.yml/badge.svg)](https://github.com/DREU007/alien_invasion/actions) [![Maintainability](https://api.codeclimate.com/v1/badges/1a526108ea1fe109ba3b/maintainability)](https://codeclimate.com/github/DREU007/alien_invasion/maintainability)
 
 ### Description
 Game based on the original Atari game Space Invaders. Shoot the aliens to defend the Earth and score as much as you can to beat the all-time high score.
@@ -33,8 +33,6 @@ make package-remove
 Python 3.10
 
 ### Gameplay
-![Menu and gameplay](https://github.com/DREU007/alien-invasion/preview/start.gif
-"Menu and gameplay")
+![Menu and gameplay](preview/start.gif "Menu and gameplay")
 
-![Collision and restart](https://github.com/DREU007/alien-invasion/preview/end.gif
-"Collision and restart")
+![Collision and restart](preview/end.gif "Collision and restart")
