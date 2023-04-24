@@ -1,3 +1,5 @@
+import os.path
+
 import pygame
 from pygame.sprite import Sprite
 
@@ -13,7 +15,8 @@ class Ship(Sprite):
         self.settings = ai_game.settings
 
         # Load the ship image and get its rect.
-        self.image = pygame.image.load('images/ship.bmp')
+        img_path = os.path.join(os.path.dirname(__file__), 'images/ship.bmp')
+        self.image = pygame.image.load(img_path)
         self.rect = self.image.get_rect()
 
         self.center_ship()
